@@ -3,26 +3,30 @@
 */
 
 #contenidos{
-	width: 1200px;
+	width: 1061px;
 	height: auto;
 	margin: auto;
     position:center;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -200px; 
-    margin-left: -300px; 
+    left: 11%;
+    top: 2%;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+    
 }
 
 /*ETIQUETAS*/
 body{
-background-image: url(https://sp.depositphotos.com/182800386/stock-photo-medical-background-healthcare-icon-medical.html);
-background-repeat: no-repeat;
-background-size: cover;
+
+ 	border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
 }
 
 h1{
-font-family: 'V-Zel', cursive;
+font-family:'Arial Narrow', Arial, sans-serif;
 color: white;
 margin-left: 10px;
 font-size: 40px;
@@ -62,9 +66,12 @@ h5{
 	text-align: justify;
 }
 header{
-	width: 1000px;
-	height: 120 px;
-	background: rgba(255, 255, 255, 10,70);
+	width: 1065px;
+	height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 
@@ -73,7 +80,8 @@ header{
 	background:  #005883;
 	height: 800px;
 	float: left;
-	margin-right: 7px;
+    margin-right: 7px;
+    
 	margin-top: 20px;
 	border-radius: 10px;
 
@@ -81,7 +89,7 @@ header{
 
 section{
 	width: 600px;
-	background: rgba(36, 36, 39, 0.801);
+	background: rgba(7, 21, 38, 0.726);
 	height: 800px;
 	float: left;
 	margin-top: 20px;
@@ -91,8 +99,8 @@ section{
 
 aside{
 
-	width: 250px;
-	background:  #005883;
+	width: 246px;
+	background:  #c2c5c7;
 	height: 800px;
 	float: left;
 	margin-left: 7px;
@@ -134,12 +142,29 @@ p{
 * { margin: 0; padding: 0; }
 body { background: #f1f1f1; margin: 50px; }
 
-#nav { margin: 0; padding: 0; float: left; }
-#nav li { list-style: none; background: #fff; width: 200px; border-bottom: 1px solid #666; }
-#nav li a { display: block; padding: 8px; border-left: 4px solid #444; text-decoration: none; box-shadow: 2px 2px 5px #ccc; color: #555; }
-#nav li a:hover { border-left: 4px solid #069; background: #f8f8f8; }
+#nav { 
+    margin-top:10px ; 
+    padding: 0; 
+    float: left; 
+}
+#nav li { 
+    list-style: none;
+    font-family: Nunito, arial, verdana ; 
+    background: rgba(7, 21, 38, 0.726)0;  
+    width: 200px; 
+    font-size: 20px;
+    font-style: unset;
+    cursor: pointer;
+    color: white;
+	/*fallback for browsers not supporting gradients*/
+	
+
+}
+
+#nav li a { display: block; padding: 8px;  margin-top: 0px; margin-bottom: 0px; border-left: 4px solid #444; text-decoration: none; box-shadow: 2px 2px 5px #ccc; color: white; }
+#nav li a:hover { border-left: 4px solid #069; background: #415761fb; }
 #nav li ul { display: none; }
 #nav li:hover ul { display: block; }
-#nav li:hover ul li { background: #333; }
-#nav li:hover ul li a { color: #ccc; }
-#nav li:hover ul li a:hover { background: #222; border-left: 4px solid #900; }
+#nav li:hover ul li { background: #0c2e3d93;  }
+#nav li:hover ul li a { color: honeydew }
+#nav li:hover ul li a:hover { background: rgb(4, 11, 20); border-left: 4px solid #900; color: rgb(247, 242, 242);}
